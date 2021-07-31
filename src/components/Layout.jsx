@@ -8,9 +8,7 @@ export default function Layout(props) {
             <div className={styles.cabecalho}>
 
                 <h1>
-                    <Link classname="sitio" href="https://www.allthingshair.com/pt-br/produtos-para-cabelo/para-colorir-os-cabelos/como-tirar-tinta-de-cabelo-da-pele-5-truques-uteis/">
-                        {props.titulo}
-                    </Link>
+                    {props.titulo}
                 </h1>
 
                 <Link href="/">Voltar</Link>
