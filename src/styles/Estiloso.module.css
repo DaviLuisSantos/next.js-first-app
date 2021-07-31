@@ -1,7 +1,11 @@
 .roxo {
-    height: 100vh;
+    height: 100%;
     background-color: rgb(135, 30, 233);
-    color: #ffff;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: rgb(0, 255, 0);
+    display: flex;
+    justify-content: center;
 }
 
 .roxo h1 {
