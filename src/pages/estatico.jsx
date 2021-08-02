@@ -1,7 +1,7 @@
 import Layout from "../components/Layout";
 
 
-export default function getStaticProps() {
+export function getStaticProps() {
     return {
         props: {
             numero: Math.random()
